@@ -7,14 +7,14 @@ dataset to demonstrate Python data processing, error handling, file management, 
 
 ## Project Structure
 
-```Employee_profile/
+```Employee Profile/
 ├── Employee_Data_Processing.ipynb   # Main notebook, all 6 tasks
 ├── Total.csv                        # SF salary dataset (2011–2018)
 ├── unzip_display.R                  # Standalone R script for Task 6
 └── README.md                        # This file
 ```
 
-After running the notebook, `Employee_Profile.zip` will also be generated in the same folder.
+After running the notebook, `Employee Profile.zip` will also be generated in the same folder.
 
 ---
 
@@ -71,12 +71,12 @@ The notebook will:
 2. Look up employees by name using `get_employee_details()`
 3. Build an ID-keyed employee dict and a year-level summary dict
 4. Demonstrate 5 types of error handling
-5. Export 3 employee profiles to `Employee_Profile.zip`
+5. Export 3 employee profiles to `Employee Profile.zip`
 6. Use embedded R (via `rpy2`) to unzip and display the profiles
 
 ### Option B — Standalone R Script (Task 6 only)
 
-After Task 5 has generated `Employee_Profile.zip`:
+After Task 5 has generated `Employee Profile.zip`:
 
 ```bash
 Rscript unzip_display.R
@@ -92,7 +92,7 @@ Rscript unzip_display.R
 | 2 | Employee function | `get_employee_details(name, df)`,case-insensitive, returns all years |
 | 3 | Dictionary processing | `employee_by_id` dict + `year_stats` aggregation dict |
 | 4 | Error handling | `safe_load_salary_data()`, 5 exception types covered |
-| 5 | Export to ZIP | `export_employee_to_zip()`, CSV zipped into `Employee_Profile.zip` |
+| 5 | Export to ZIP | `export_employee_to_zip()`, CSV zipped into `Employee Profile.zip` |
 | 6 | R unzip + display | `unzip()` + `read.csv()` + combined `data.frame` print |
 
 ---
