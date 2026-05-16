@@ -1,4 +1,4 @@
-# SF Employee Salary — Data Processing Assignment
+# SF Employee Salary, Data Processing Assignment
 
 A Jupyter Notebook project using the **San Francisco City Employee Salaries (2011–2018)**
 dataset to demonstrate Python data processing, error handling, file management, and R integration.
