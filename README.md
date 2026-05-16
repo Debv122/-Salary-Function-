@@ -9,7 +9,7 @@ dataset to demonstrate Python data processing, error handling, file management, 
 
 ```
 employee_project/
-├── Employee_Data_Processing.ipynb   # Main notebook — all 6 tasks
+├── Employee_Data_Processing.ipynb   # Main notebook, all 6 tasks
 ├── Total.csv                        # SF salary dataset (2011–2018)
 ├── unzip_display.R                  # Standalone R script for Task 6
 └── README.md                        # This file
@@ -53,7 +53,7 @@ pip install pandas numpy rpy2 notebook
 
 ### R
 - R 4.0+ installed on your system
-- No additional R packages needed — only base R is used
+- No additional R packages needed, only base R is used
 
 ---
 
@@ -90,10 +90,10 @@ Rscript unzip_display.R
 | # | Task | Key function / approach |
 |---|------|------------------------|
 | 1 | Import data | `pd.read_csv('Total.csv')` + numeric coercion |
-| 2 | Employee function | `get_employee_details(name, df)` — case-insensitive, returns all years |
+| 2 | Employee function | `get_employee_details(name, df)`,case-insensitive, returns all years |
 | 3 | Dictionary processing | `employee_by_id` dict + `year_stats` aggregation dict |
-| 4 | Error handling | `safe_load_salary_data()` — 5 exception types covered |
-| 5 | Export to ZIP | `export_employee_to_zip()` — CSV zipped into `Employee Profile.zip` |
+| 4 | Error handling | `safe_load_salary_data()`, 5 exception types covered |
+| 5 | Export to ZIP | `export_employee_to_zip()`, CSV zipped into `Employee Profile.zip` |
 | 6 | R unzip + display | `unzip()` + `read.csv()` + combined `data.frame` print |
 
 ---
